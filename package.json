@@ -1,0 +1,17 @@
+{
+  "name": "ajo-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A savings-circle agent on Celo. Collects a fixed contribution, pays the pot to whoever's turn it is.",
+  "scripts": {
+    "payout": "tsx src/payout.ts"
+  },
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
